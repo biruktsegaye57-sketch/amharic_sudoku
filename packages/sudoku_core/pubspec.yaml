@@ -1,0 +1,9 @@
+name: sudoku_core
+description: Core Sudoku engine for Ge'ez Sudoku — grid model, solver, generator, grader.
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.24.0

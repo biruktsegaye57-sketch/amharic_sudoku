@@ -1,0 +1,648 @@
+{
+  "schema": 1,
+  "notes": "Single source of truth for hidden words. Validate with: cd packages/sudoku_core && dart run tool/words.dart validate ../../assets/words/words.json. A word ships to players when it passes the rules and disabled is false; status becomes 'approved' after two native-speaker reviewers sign off (requirement 5). Export for reviewers with 'export-csv', merge their sheet back with 'import-csv'.",
+  "themes": {
+    "food": {
+      "en": "Food",
+      "am": "ምግብ"
+    },
+    "cities": {
+      "en": "Cities",
+      "am": "ከተሞች"
+    },
+    "proverbs": {
+      "en": "Proverbs",
+      "am": "ተረትና ምሳሌ"
+    },
+    "holidays": {
+      "en": "Holidays",
+      "am": "በዓላት"
+    },
+    "animals": {
+      "en": "Animals",
+      "am": "እንስሳት"
+    },
+    "school": {
+      "en": "School",
+      "am": "ትምህርት"
+    }
+  },
+  "words": [
+    {
+      "id": "f4a",
+      "word": "ዶሮ ወጥ",
+      "theme": "food",
+      "meaning_en": "Doro wat: chicken stew",
+      "meaning_am": "በዶሮ ሥጋ የሚሠራ ቅመም ያለው ወጥ",
+      "source": "Requirements example; common dish name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f4b",
+      "word": "ሽሮ ወጥ",
+      "theme": "food",
+      "meaning_en": "Shiro wat: chickpea stew",
+      "meaning_am": "ከሽምብራ ዱቄት የሚሠራ ወጥ",
+      "source": "Common dish name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f4c",
+      "word": "ቀይ ወጥ",
+      "theme": "food",
+      "meaning_en": "Key wat: spicy red stew",
+      "meaning_am": "በበርበሬ የሚሠራ ቀይ ወጥ",
+      "source": "Common dish name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f4d",
+      "word": "ጠጅ ቤት",
+      "theme": "food",
+      "meaning_en": "Tej house, where honey wine is served",
+      "meaning_am": "ጠጅ የሚሸጥበት ቤት",
+      "source": "Common compound",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f4e",
+      "word": "አምባሻ",
+      "theme": "food",
+      "meaning_en": "Ambasha: round festive bread",
+      "meaning_am": "ለበዓል የሚጋገር ክብ ዳቦ",
+      "source": "Common food name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f4f",
+      "word": "ሻይ ቡና",
+      "theme": "food",
+      "meaning_en": "Tea and coffee: time for a chat",
+      "meaning_am": "ሻይና ቡና፤ የጨዋታ ጊዜ",
+      "source": "Common expression",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f4g",
+      "word": "ማር ቅቤ",
+      "theme": "food",
+      "meaning_en": "Honey and butter",
+      "meaning_am": "ማርና ቅቤ",
+      "source": "Common pairing",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f4h",
+      "word": "አቮካዶ",
+      "theme": "food",
+      "meaning_en": "Avocado",
+      "meaning_am": "የአቮካዶ ፍሬ",
+      "source": "Common fruit name (loanword)",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f6a",
+      "word": "እንጀራ በላ",
+      "theme": "food",
+      "meaning_en": "He ate injera",
+      "meaning_am": "እንጀራ ተመገበ",
+      "source": "Requirements example",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f6b",
+      "word": "ጤፍ እንጀራ",
+      "theme": "food",
+      "meaning_en": "Teff injera",
+      "meaning_am": "ከጤፍ ዱቄት የተጋገረ እንጀራ",
+      "source": "Common compound",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f6c",
+      "word": "ክትፎ በላች",
+      "theme": "food",
+      "meaning_en": "She ate kitfo",
+      "meaning_am": "ክትፎ ተመገበች",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f6d",
+      "word": "ቡና አፈላች",
+      "theme": "food",
+      "meaning_en": "She brewed coffee",
+      "meaning_am": "ቡና አዘጋጀች",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f6e",
+      "word": "ቁርስ በላን",
+      "theme": "food",
+      "meaning_en": "We ate breakfast",
+      "meaning_am": "የጠዋት ምግብ ተመገብን",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f9a",
+      "word": "ቀይ ሽንኩርት ገዛ",
+      "theme": "food",
+      "meaning_en": "He bought red onions",
+      "meaning_am": "ለወጥ የሚሆን ቀይ ሽንኩርት ገዛ",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "f9b",
+      "word": "ነጭ ጤፍ ዱቄት ገዛ",
+      "theme": "food",
+      "meaning_en": "He bought white teff flour",
+      "meaning_am": "ለእንጀራ የሚሆን ነጭ ጤፍ ዱቄት ገዛ",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c4a",
+      "word": "ጎንደር",
+      "theme": "cities",
+      "meaning_en": "Gondar, city of castles",
+      "meaning_am": "የፋሲል ግንብ የሚገኝባት ታሪካዊ ከተማ",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c4b",
+      "word": "አክሱም",
+      "theme": "cities",
+      "meaning_en": "Aksum, the ancient capital",
+      "meaning_am": "የጥንታዊው የአክሱም መንግሥት መዲና",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c4c",
+      "word": "ጋምቤላ",
+      "theme": "cities",
+      "meaning_en": "Gambela, city in the western lowlands",
+      "meaning_am": "በምዕራብ ኢትዮጵያ የምትገኝ ከተማ",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c4d",
+      "word": "ነቀምቴ",
+      "theme": "cities",
+      "meaning_en": "Nekemte, city in western Oromia",
+      "meaning_am": "በምዕራብ ኦሮሚያ የምትገኝ ከተማ",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c4e",
+      "word": "ቢሾፍቱ",
+      "theme": "cities",
+      "meaning_en": "Bishoftu, town of crater lakes",
+      "meaning_am": "በሐይቆቿ የምትታወቅ ከተማ",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c4f",
+      "word": "ሆሳዕና",
+      "theme": "cities",
+      "meaning_en": "Hosaena, city in central Ethiopia",
+      "meaning_am": "በማዕከላዊ ኢትዮጵያ የምትገኝ ከተማ",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c4g",
+      "word": "ወልቂጤ",
+      "theme": "cities",
+      "meaning_en": "Welkite, city in the Gurage zone",
+      "meaning_am": "በጉራጌ ዞን የምትገኝ ከተማ",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c6a",
+      "word": "ደብረ ዘይት",
+      "theme": "cities",
+      "meaning_en": "Debre Zeyit, the old name of Bishoftu",
+      "meaning_am": "የቢሾፍቱ የቀድሞ ስም",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c6b",
+      "word": "አርባ ምንጭ",
+      "theme": "cities",
+      "meaning_en": "Arba Minch: \"forty springs\"",
+      "meaning_am": "በደቡብ ኢትዮጵያ የምትገኝ የአርባ ምንጮች ከተማ",
+      "source": "Place name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c6c",
+      "word": "ውብ ጎንደር",
+      "theme": "cities",
+      "meaning_en": "Beautiful Gondar",
+      "meaning_am": "ውቢቷ ጎንደር",
+      "source": "Descriptive phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "c6d",
+      "word": "ውብ አክሱም",
+      "theme": "cities",
+      "meaning_en": "Beautiful Aksum",
+      "meaning_am": "ውቢቷ አክሱም",
+      "source": "Descriptive phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "p4a",
+      "word": "ቀስ በል",
+      "theme": "proverbs",
+      "meaning_en": "Take it slowly",
+      "meaning_am": "ቀስ ብለህ ሂድ፤ አትቸኩል",
+      "source": "Common saying",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "p4b",
+      "word": "አይዞህ",
+      "theme": "proverbs",
+      "meaning_en": "Take heart, be strong",
+      "meaning_am": "አትፍራ፤ በርታ",
+      "source": "Common encouragement",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "p6a",
+      "word": "ዝምታ ወርቅ",
+      "theme": "proverbs",
+      "meaning_en": "Silence is gold",
+      "meaning_am": "ዝምታ ወርቅ ነው ከሚለው ምሳሌ",
+      "source": "Proverb fragment",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "p6b",
+      "word": "ሆድ ይፍጀው",
+      "theme": "proverbs",
+      "meaning_en": "Let the stomach keep it: hold your tongue",
+      "meaning_am": "የሰማኸውን በሆድህ ያዝ",
+      "source": "Common saying",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "p6c",
+      "word": "ሰላም ይብዛ",
+      "theme": "proverbs",
+      "meaning_en": "May peace abound",
+      "meaning_am": "ሰላም ይብዛልን",
+      "source": "Common blessing",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h4a",
+      "word": "መስቀል",
+      "theme": "holidays",
+      "meaning_en": "Meskel, finding of the True Cross",
+      "meaning_am": "የመስቀል በዓል",
+      "source": "Holiday name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h4b",
+      "word": "ጥምቀት",
+      "theme": "holidays",
+      "meaning_en": "Timket, Ethiopian Epiphany",
+      "meaning_am": "የጥምቀት በዓል",
+      "source": "Holiday name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h4c",
+      "word": "ረመዳን",
+      "theme": "holidays",
+      "meaning_en": "Ramadan, the month of fasting",
+      "meaning_am": "የረመዳን የጾም ወር",
+      "source": "Holiday name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h4d",
+      "word": "መውሊድ",
+      "theme": "holidays",
+      "meaning_en": "Mawlid, the Prophet's birthday",
+      "meaning_am": "የነቢዩ መሐመድ የልደት በዓል",
+      "source": "Holiday name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h6a",
+      "word": "የገና ጨዋታ",
+      "theme": "holidays",
+      "meaning_en": "The Genna game played at Christmas",
+      "meaning_am": "በገና በዓል የሚጫወቱት ባህላዊ ጨዋታ",
+      "source": "Common compound",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h6b",
+      "word": "ፋሲካ በዓል",
+      "theme": "holidays",
+      "meaning_en": "Easter holiday",
+      "meaning_am": "የትንሣኤ በዓል",
+      "source": "Common compound",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h6c",
+      "word": "ገና ተከበረ",
+      "theme": "holidays",
+      "meaning_en": "Christmas was celebrated",
+      "meaning_am": "የገና በዓል ተከበረ",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h9a",
+      "word": "ጥምቀት በጎንደር",
+      "theme": "holidays",
+      "meaning_en": "Timket in Gondar",
+      "meaning_am": "በጎንደር የሚከበረው የጥምቀት በዓል",
+      "source": "Descriptive phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a4a",
+      "word": "አንበሳ",
+      "theme": "animals",
+      "meaning_en": "Lion",
+      "meaning_am": "የዱር እንስሳት ንጉሥ",
+      "source": "Animal name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a4b",
+      "word": "እርግብ",
+      "theme": "animals",
+      "meaning_en": "Dove",
+      "meaning_am": "የሰላም ምልክት የሆነች ወፍ",
+      "source": "Animal name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a4c",
+      "word": "ጥንቸል",
+      "theme": "animals",
+      "meaning_en": "Rabbit",
+      "meaning_am": "ረጃጅም ጆሮ ያላት ትንሽ እንስሳ",
+      "source": "Animal name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a4d",
+      "word": "ዝንጀሮ",
+      "theme": "animals",
+      "meaning_en": "Monkey, baboon",
+      "meaning_am": "በዛፍና በገደል የሚኖር እንስሳ",
+      "source": "Animal name",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a4e",
+      "word": "ነጭ ላም",
+      "theme": "animals",
+      "meaning_en": "White cow",
+      "meaning_am": "ነጭ ቀለም ያላት ላም",
+      "source": "Descriptive phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a4f",
+      "word": "ቀይ ዶሮ",
+      "theme": "animals",
+      "meaning_en": "Red hen",
+      "meaning_am": "ቀይ ላባ ያላት ዶሮ",
+      "source": "Descriptive phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a6a",
+      "word": "ፈረስ ጋለበ",
+      "theme": "animals",
+      "meaning_en": "He rode a horse",
+      "meaning_am": "በፈረስ ላይ ተቀምጦ ሄደ",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a6b",
+      "word": "ጥቁር ድመት",
+      "theme": "animals",
+      "meaning_en": "Black cat",
+      "meaning_am": "ጥቁር ቀለም ያላት ድመት",
+      "source": "Descriptive phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a9a",
+      "word": "ጉማሬ በሐይቅ ዋኘ",
+      "theme": "animals",
+      "meaning_en": "The hippo swam in the lake",
+      "meaning_am": "ጉማሬው በሐይቁ ውስጥ ዋኘ",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "s4a",
+      "word": "ደብተር",
+      "theme": "school",
+      "meaning_en": "Notebook",
+      "meaning_am": "ለመጻፍ የሚያገለግል ማስታወሻ",
+      "source": "Common noun",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "s4b",
+      "word": "መጽሐፍ",
+      "theme": "school",
+      "meaning_en": "Book",
+      "meaning_am": "የሚነበብ ጽሑፍ የያዘ",
+      "source": "Common noun",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "s6a",
+      "word": "ጎበዝ ተማሪ",
+      "theme": "school",
+      "meaning_en": "A clever student",
+      "meaning_am": "ትጉህና ብልህ ተማሪ",
+      "source": "Common phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "s6b",
+      "word": "ፊደል ቆጠረ",
+      "theme": "school",
+      "meaning_en": "He learned his letters",
+      "meaning_am": "ማንበብና መጻፍ ተማረ",
+      "source": "Idiom",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "s9a",
+      "word": "ጎበዝ ተማሪ ናችሁ",
+      "theme": "school",
+      "meaning_en": "You are clever students",
+      "meaning_am": "ጥሩ ተማሪዎች ናችሁ",
+      "source": "Requirements example",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "a4g",
+      "word": "ውሻ ጮኸ",
+      "theme": "animals",
+      "meaning_en": "The dog barked",
+      "meaning_am": "ውሻው ጮኸ",
+      "source": "Simple sentence",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "h6d",
+      "word": "ዒድ ሙባረክ",
+      "theme": "holidays",
+      "meaning_en": "Eid Mubarak: blessed Eid",
+      "meaning_am": "መልካም የዒድ በዓል",
+      "source": "Common greeting",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    },
+    {
+      "id": "s9b",
+      "word": "ደብተርና መጽሐፍ",
+      "theme": "school",
+      "meaning_en": "Notebook and book",
+      "meaning_am": "ደብተርና መጽሐፍ",
+      "source": "Common phrase",
+      "status": "needs_review",
+      "reviewers": [],
+      "disabled": false
+    }
+  ]
+}
